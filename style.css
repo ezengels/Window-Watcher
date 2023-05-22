@@ -1,0 +1,29 @@
+
+body {
+  padding: 30px 30px;
+  background: repeating-linear-gradient(-45deg, black, black 10px, white 10px, white 20px); 
+  background-size:cover;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  left: 290px;
+  top: 225px;
+  border-radius: 2px;
+  opacity: 0%;
+}
+
+canvas:hover {
+  transition-property: opacity;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  opacity: 100%;
+}
+
+
+img {
+  position: relative; 
+  border-radius: 10px;
+  width: 1000px;
+}
